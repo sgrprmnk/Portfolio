@@ -17,9 +17,8 @@
        <li>valid form with submit button
         <li> Infinite scroll-bar
          <li> on click smooth Scroll
-           <li>owl carousel 
+           <li>owl carousel
        
-         </ul>
 
 
 
