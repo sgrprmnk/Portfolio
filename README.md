@@ -1,6 +1,6 @@
 <h1>Portfolio (pôrtˈfōlēˌō)</h1>
 
-<b> This is a very basic project. We can use it to represent ourselves instead of only through cv/Resume.</b>
+<label><h3>Usage</h3></label><b> This is a very basic project. We can use it to represent ourselves instead of only through cv/Resume.</b>
 
 <b> Tech Stack</b>
 <p>
