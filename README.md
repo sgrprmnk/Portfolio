@@ -1,4 +1,4 @@
-Portfolio (pôrtˈfōlēˌō)
+<h1>Portfolio (pôrtˈfōlēˌō)</h1>
 
 #a. WHY this project was chosen (what use case does it solve)
 
