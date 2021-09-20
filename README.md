@@ -1,12 +1,12 @@
 <h1>Portfolio (pôrtˈfōlēˌō)</h1>
 
-<label><h3>Usage</h3></label><b> This is a very basic project. We can use it to represent ourselves instead of only through cv/Resume.</b>
+<label for="port"><h3>Usage:</h3></label><b name="port"> This is a very basic project. We can use it to represent ourselves instead of only through cv/Resume.</b>
 
-<b> Tech Stack</b>
+<b> Tech Stack:</b>
 <p>
  In this project I have used HTML, CSS, and basic JavaScript
          </p>
-<b> Features </b>
+<b> Features: </b>
 <ul> 
          <li>navbar/toggle menu with flex type and a fixed image</li>
          <li>Welcome pop-up message
