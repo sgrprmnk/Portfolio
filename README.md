@@ -1,6 +1,5 @@
-#==============================
-Project Description: Portfolio (pôrtˈfōlēˌō)
-==============================
+Portfolio (pôrtˈfōlēˌō)
+
 #a. WHY this project was chosen (what use case does it solve)
 
 --> This is a very basic project. In this project, I have created a portfolio website. Basically, we can use it to represent ourselves instead of only through cv/Resume.
