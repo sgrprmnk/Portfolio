@@ -27,6 +27,7 @@
             <ul>
              <li>Flip card using only HtML and CSS
               <li>Responsive table
+               <li> bug fixes, new designed added
             </ul>
 
 
