@@ -3,13 +3,13 @@
 <img src="https://github.com/sgrprmnk/Portfolio/blob/main/Screenshot%20(296).png">
 
 
-<label for="port"><h3>Usage:</h3></label><b name="port"> This is a very basic project. We can use it to represent ourselves instead of only through cv/Resume.</b>
+<label for="port"><h2>Usage:</h2></label><b name="port"> This is a very basic project. We can use it to represent ourselves instead of only through cv/Resume.</b>
 
 <h2><b> Tech Stack:</b></h2>
 <p>
  In this project I have used HTML, CSS, and basic JavaScript
          </p>
-<b> Features: </b>
+<h2><b> Features: </b></h2>
 <ul> 
          <li>navbar/toggle menu with flex type and a fixed image</li>
          <li>Welcome pop-up message
