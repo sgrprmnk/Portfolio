@@ -3,7 +3,7 @@
 <img src="https://github.com/sgrprmnk/Portfolio/blob/main/Screenshot%20(296).png">
 
 
-<label for="port"><h2>Usage:</h2></label><b name="port"> This is a very basic project. We can use it to represent ourselves instead of only through cv/Resume.</b>
+<label for="port"><h2>Usage:</h2></label><b name="port"> We can use it to represent ourselves instead of  cv/Resume.</b>
 
 <h2><b> Tech Stack:</b></h2>
 <p>
