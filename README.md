@@ -22,7 +22,7 @@
          <li> on click smooth Scroll
            <li>owl carousel
  <h2>Easy to maintain/update</h2>
-            <p>As the code is written using Semantic Element, so we can easily manipulating features</p>
+            <p>The code is written using Semantic Element and it's a clean code, so we can easily manipulating features</p>
        <h2>New Features Updated</h2>
             <ul>
              <li>Flip card using only HtML and CSS
