@@ -1,7 +1,7 @@
 <h1>Portfolio (pôrtˈfōlēˌō)</h1>
-<img src="https://github.com/sgrprmnk/Portfolio/blob/main/Screenshot%20(285).png">
-<img src="https://github.com/sgrprmnk/Portfolio/blob/main/Screenshot%20(286).png">
-<img src="https://github.com/sgrprmnk/Portfolio/blob/main/Screenshot%20(287).png">
+<img src="https://github.com/sgrprmnk/Portfolio/blob/main/Screenshot%20(288).png">
+<img src="https://github.com/sgrprmnk/Portfolio/blob/main/Screenshot%20(296).png">
+
 
 <label for="port"><h3>Usage:</h3></label><b name="port"> This is a very basic project. We can use it to represent ourselves instead of only through cv/Resume.</b>
 
