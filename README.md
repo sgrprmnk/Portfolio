@@ -12,18 +12,18 @@
 <h2><b> Features: </b></h2>
 <ul> 
          <li>navbar/toggle menu with flex type and a fixed image</li>
-         <li>Welcome pop-up message
+         <li>Smooth hover effect
         <li>header and footer with navigation
      <li>Animated Script
-      <li>button with hover effect
+      <li>anchor tag designed as a button
        <li>card using html
        <li>valid form with submit button
         <li> Infinite scroll-bar
          <li> on click smooth Scroll
            <li>owl carousel
-   <h2>Easy to maintain/update</h2>
+ <h2>Easy to maintain/update</h2>
             <p>As the code is written using Semantic Element, so we can easily manipulating features</p>
-            <h2>New Features Updated</h2>
+       <h2>New Features Updated</h2>
             <ul>
              <li>Flip card using only HtML and CSS
               <li>Responsive table
