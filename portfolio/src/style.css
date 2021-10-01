@@ -96,7 +96,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: white;
+    background: rgb(255, 255, 255);
 }
 .navbar .max-width{
     display: flex;
@@ -109,7 +109,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgba(80, 29, 85, 0.836);
+    color: rgb(127, 226, 14);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -121,17 +121,17 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: rgb(223, 205, 205);
+    color: rgb(127, 226, 14);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: rgb(148, 207, 207);
+    color: rgb(137, 237, 27);
 }
 .navbar.sticky .menu li a:hover{
-    color: rgb(57, 179, 148);
+    color: rgb(138, 247, 28);
 }
 
 /**************** 
@@ -179,9 +179,9 @@ section .title::after{
 .home{
     
     display: flex;
-    background: url("image/img4.png") no-repeat center;
+    background: url("image/image0.jpg") no-repeat center;
     height: 100vh;
-    color: rgb(238, 220, 220);
+    color: rgb(85, 46, 46);
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -196,19 +196,22 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 18px;
+    color:#111;
   
 }
 .home .home-content .text-2{
     font-size: 30px;
     font-weight: 201;
     margin-left: -4px;
+    color:#111;
 }
 .home .home-content .text-3{
     font-size: 20px;
     margin: 5px 0;
+    color: #111;
 }
 .home .home-content .text-3 span{
-    color: rgb(0, 0, 0);
+    color:rgb(127, 226, 14);
     font-weight: 300;
     font-size: 20px;
 }
@@ -220,31 +223,122 @@ section .title::after{
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
-    border-radius: 12px;
-    border: 2px solid rgb(130, 231, 28);
+    border-radius: 24px;
+    border: 1px solid rgb(130, 231, 28);
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: rgb(133, 220, 20);
-    background: rgb(87, 186, 8);
+    /* color: rgb(133, 220, 20); */
+    background: rgb(113, 201, 10);
 }
 
 /********************* 
     about section
 **********************/
 .about .title::after{
-    content: "who i am";
+    content: "";
 }
 .about .about-content .left{
     width: 45%;
 }
-.about .about-content .left img{
-    background-color: blue;
-    height: 450px;
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  } */
+  ::selection{
+    color: #fff;
+    background: #1cc7d0;
+  }
+  .wrapper{
+    height: 400px;
+    width: 320px;
+    position: relative;
+    transform-style: preserve-3d;
+   perspective: 1000px;
+  }
+  .wrapper .card{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    transform: translateY(0deg);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
+  }
+  .wrapper:hover > .front-face{
+    transform: rotateY(-180deg);
+  }
+  .wrapper .card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .wrapper .back-face{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transform: rotateY(180deg);
+  }
+  .wrapper:hover > .back-face{
+    transform: rotateY(0deg);
+  }
+  .wrapper .back-face img{
+    height: 150px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 50%;
+    background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  }
+  .wrapper .back-face .info{
+    text-align: center;
+  }
+  .back-face .info .title{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .back-face ul{
+    display: flex;
+  }
+  .back-face ul a{
+    display: block;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    margin: 0 5px;
+    line-height: 38px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background: linear-gradient(375deg, #1cc7d0, #2ede98);
+    transition: all 0.5s ease;
+  }
+  .back-face ul a:hover{
+    color: #1cc7d0;
+    border-color: #1cc7d0;
+    background: linear-gradient(375deg, transparent, transparent);
+  }
+/* .about .about-content .left img{
+     background-color: blue; 
+    height: 400px;
     width: 300px;
     object-fit: cover;
-    border-radius: 6px;
-}
+    border-radius: 50%;
+} */
 .about .about-content .right{
     width: 55%;
 }
@@ -268,13 +362,13 @@ section .title::after{
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
-    border-radius: 12px;
-    border: 2px solid rgb(130, 231, 28);
+    border-radius: 24px;
+    border: 1px solid rgb(130, 231, 28);
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: rgb(133, 220, 20);
-    background: rgb(87, 186, 8);
+    /* color: rgb(133, 220, 20); */
+    background: rgb(113, 201, 10);
 }
 
 
@@ -307,12 +401,12 @@ section .title::after{
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
-    border-radius: 12px;
-    border: 2px solid rgb(137, 240, 20);
+    border-radius: 24px;
+    border: 1px solid rgb(137, 240, 20);
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: rgb(133, 220, 20);
+    /* color: rgb(133, 220, 20); */
     background: rgb(87, 186, 8);
 }
 .skills .skills-content .right .bars{
@@ -331,7 +425,7 @@ section .title::after{
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: lightgrey;
+    background: rgba(226, 226, 226, 0.993);
     position: relative;
 }
 .skills .skills-content .right .line::before{
@@ -367,7 +461,7 @@ section .title::after{
 ************************/
 .services, .teams{
     color:rgb(0, 0, 0);
-    background: rgb(220, 235, 238);
+    background: rgb(245, 234, 234);
 }
 .services .title::before,
 .teams .title::before{
@@ -380,7 +474,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: rgb(231, 238, 238);
+    background: rgb(234, 235, 230);
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -398,7 +492,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: rgb(57, 20, 220);
+    color: rgb(2, 2, 2);
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -412,6 +506,7 @@ section .title::after{
 /*********************
     contact section  
 ***********************/
+
 .contact .title::after{
     content: "visit again";
 }
@@ -469,7 +564,7 @@ section .title::after{
     height: 100%;
     width: 100%;
     border: 1px solid lightgrey;
-    border-radius: 6px;
+    border-radius: 24px;
     outline: none;
     padding: 0 15px;
     font-size: 17px;
@@ -497,33 +592,28 @@ section .title::after{
   outline: none;
   font-size: 18px;
   font-weight: 500;
-  border-radius: 12px;
+  border-radius: 24px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background:rgb(127, 226, 14);;
-  border: 2px solid rgb(150, 240, 20);
+  background:rgb(127, 226, 14);
+  border: 1px solid rgb(150, 240, 20);
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color:rgb(133, 220, 20);
+  /* color:rgb(133, 220, 20); */
   background:rgb(87, 186, 8);
 }
 /*********************
     footer section
 **********************/
-footer{
-    background: rgb(223, 209, 209);
-    padding: 15px 23px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-footer span a{
+
+/* footer span a{
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 footer span a:hover{
     text-decoration: underline;
-}
+} */
 
 
 /***************************
@@ -655,3 +745,22 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+-------
+/*****************
+Projects table
+******************/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  ---------
+ 
