@@ -25,7 +25,7 @@
             <p>The code is written using Semantic Element and it's a clean code, so we can easily manipulating features</p>
        <h2>New Features Updated</h2>
             <ul>
-             <li>Flip card using only HtML and CSS
+             <li>Flip card using only HtML and CSS(point the cursor on image in about section)
               <li>Responsive table
                <li> bug fixes, new designed added
                  <li>Performance Improved</li>
